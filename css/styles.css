@@ -5,72 +5,58 @@ body {
 }
 
 header {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  border-bottom: 1px dotted gainsboro;
 }
 
-.nav-icon {
-  width: 75px;
-  margin: 1em;
+nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.nav-icon div {
-  background: black;
-  border: 1px solid;
-  border-radius: 3px;
-  height: 1px;
-  margin: 3px 0;
-  transition: all 1s;
+nav ul {
+  list-style: none;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+nav li {
+  display: inline-flex;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: transparent;
-  min-width: 160px;
-  /*box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 62px 86px;
+nav a {
+  color: rgb(207, 200, 200);
   text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: transparent;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 /* INDEX */
 
-section {
+.gallery {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  overflow: scroll;
 }
 
-.gallery {
-  padding-left: 500px;
-  padding-right: 500px;
+.gallery img {
+  height: 400px;
+  width: 400px;
+  padding: 2px;
 }
 
+/*
 .flyergrid {
   display: grid;
   position: relative;
-  grid-template-columns: 50px;
+  grid-template-columns: 1fr;
 }
 
-img {
-  height: 50px;
-  width: 50px;
+.flyergrid img {
+  height: 100px;
+  width: 100px;
   object-fit: cover;
   padding-top: 5px;
   cursor: pointer;
@@ -124,10 +110,9 @@ img {
   opacity: 1;
   transform: translateY(0);
 }
+*/
 
 /* ABOUT */
-
-
 
 .bio {
   background-image: url("../images/booty-rex-1.jpg");
@@ -141,7 +126,6 @@ img {
 }
 
 .bio p {
-  
 }
 
 /* MUSIC */
@@ -154,7 +138,6 @@ img {
 }
 
 /* EVENTS */
-
 
 .events {
   background-image: url("../images/booty-rex-4.jpg");
@@ -179,8 +162,6 @@ img {
   width: 100%;
   background-size: cover;
 }
-
-
 
 .signup {
   padding: 100px 300px 200px 500px;
