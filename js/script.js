@@ -1,13 +1,10 @@
-console.log("JS Loaded!");
+var flyerPopUp = document.querySelectorAll(".flyerinfo");
+var flyerText = document.querySelectorAll(".flyerinfo div");
 
-const name = "Marc";
+var i;
 
-console.log(name);
-
-const showModal = document.querySelector(".img");
-const maskDiv = document.querySelector(".mask");
-const closeModal = document.querySelector(".close");
-
-showModal.addEventListener("click", function () {
-  maskDiv.classList.add("active");
-});
+for (i = 0; i < flyerPopUp.length; i++) {
+  flyerText[i].onclick = function () {
+    this.classList.toggle("show");
+  };
+}
