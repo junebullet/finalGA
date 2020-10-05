@@ -6,26 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap"
-      rel="stylesheet"
-    />
-    <title>Contact</title>
+    <title>Document</title>
   </head>
   <body>
     <!--MENU-->
     <header>
-      <nav>
-        <ul>
-          <li><a href="about.html">BIO</a></li>
-          <li><a href="music.html">MUSIC</a></li>
-          <li><a href="events.html">EVENTS</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </nav>
-      </header>
-      <!--END MENU-->
+      <div class="dropdown">
+        <div class="nav-icon">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
 
+        <div class="dropdown-content">
+            <a href="index.html">HOME</a>
+          <a href="about.html">BIO</a>
+          <a href="music.html">MUSIC</a>
+          <a href="events.html">EVENTS</a>
+          <a href="contact.html">CONTACT</a>
+        </div>
+      </div>
+    </header>
+    <!--END MENU-->
+
+    <section>
       <div class="signup">
         <form>
           <label for="name">NAME</label><br />
@@ -37,7 +43,7 @@
           <input type="text" id="email" name="email" /><br />
         </form>
       </div>
-    </div>
+    </section>
 
     <script src="js/script.js"></script>
   </body>
