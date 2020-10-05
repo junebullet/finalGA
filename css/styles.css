@@ -115,7 +115,8 @@ display: inline-block;
 .flyergrid {
   height: 100%;
   flex-direction: column;
-  margin-top: 15%;
+  padding-top: 3rem;
+  /*margin-top: 15%;*/
 }
 
 .flyergrid img {
@@ -131,6 +132,10 @@ display: inline-block;
   width: 200px;
   object-fit: cover;
   padding-top: 1px;
+}
+
+.flyerinfo.reveal {
+  padding: 50px 0 50px 0;
 }
 
 .flyerinfo div {
@@ -151,89 +156,6 @@ display: inline-block;
   opacity: 1;
 }
 
-/*
-.clickOnFlyer {
-  height: 400px;
-  width: 400px;
-  padding-top: 5px;
-  cursor: pointer;
-  position: relative;
-  overflow: scroll;
-}
-
-.clickOnFlyer img {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-}
-
-.clickOnFlyer div {
-  position: absolute;
-  color: #fff;
-  padding: 10px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 40%;
-  text-align: center;
-}
-
-*/
-
-/*
-
-.gallery-modal {
-}
-
-.modal {
-  position: fixed;
-  top: 35%;
-  left: 25%;
-  width: 200px;
-  height: 300px;
-  visibility: hidden;
-  z-index: 100;
-  border: 1px solid lightgray;
-}
-
-.close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 35px;
-  height: 30px;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-  border: 0;
-}
-
-.mask {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(52, 73, 94, 0.8);
-  z-index: 50;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.7s;
-}
-
-.active {
-  visibility: visible;
-  opacity: 1;
-}
-.active + .modal {
-  visibility: visible;
-  opacity: 1;
-  transform: translateY(0);
-}
-*/
-
 /* ABOUT */
 
 .about {
@@ -241,7 +163,8 @@ display: inline-block;
   width: 100%;
   background: #f7cde5;
   overflow: scroll;
-  margin-top: 10%;
+  padding-top: 8rem;
+  /*margin-top: 10%;*/
 }
 
 .about p {
@@ -262,7 +185,8 @@ display: inline-block;
   width: 100%;
   background: #f7cde5;
   overflow: scroll;
-  margin-top: 20%;
+  padding-top: 8rem;
+  /*margin-top: 20%;*/
 }
 
 .video-responsive {
@@ -282,7 +206,7 @@ display: inline-block;
 }
 
 .video-responsive-2 {
-  padding-bottom: 56.25%;
+  padding-bottom: 56%;
   height: 0;
   position: relative;
 }
@@ -310,38 +234,6 @@ display: inline-block;
   position: absolute;
   border: 2px solid gainsboro;
 }
-
-/* 
-
-EVENTS 
-
-.events {
-  height: 35rem;
-  width: 100%;
-  background: #f7cde5;
-}
-
-.events h1 {
-  padding: 100px 400px 200px 500px;
-}
-
-.pastevents {
-  padding: 200px 300px 200px 100px;
-}
-
-CONTACT 
-
-.contact {
-  height: 35rem;
-  width: 100%;
-  background: #f7cde5;
-}
-
-.signup {
-  padding: 100px 300px 200px 500px;
-}
-
-*/
 
 /*FOOTER*/
 
@@ -381,6 +273,7 @@ CONTACT
   }
 
   .flyergrid {
+    padding-top: 2rem;
   }
 
   .flyerinfo img {
@@ -404,12 +297,18 @@ CONTACT
   .flyergrid {
     display: flex;
     flex-direction: row;
-    margin-left: 200%;
     height: 50%;
+    padding-top: 7rem;
+    padding-left: 475rem;
+    /*margin-left: 200%;*/
   }
 
   .flyergrid img {
     padding-right: 2px;
+  }
+
+  .flyerinfo.reveal {
+    padding: 0 100px 0 100px;
   }
 }
 
@@ -423,7 +322,6 @@ CONTACT
   }
 
   .flyergrid {
-    margin-top: 5%;
   }
 }
 
@@ -431,5 +329,10 @@ CONTACT
   .flyerinfo img {
     height: 400px;
     width: 400px;
+  }
+
+  .flyergrid {
+    padding-top: 10rem;
+    padding-left: 800rem;
   }
 }
