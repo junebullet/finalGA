@@ -314,7 +314,7 @@ display: inline-block;
   }
 
   .flyergrid img {
-    padding-right: 2px;
+    padding-right: 3px;
   }
 
   .flyerinfo img.reveal {
@@ -340,17 +340,22 @@ display: inline-block;
   }
 
   .flyergrid {
+    padding-left: 550rem;
+  }
+
+  .flyerinfo img {
+    height: 350px;
+    width: 350px;
   }
 }
 
 @media screen and (min-width: 1680px) {
-  .flyerinfo img {
+  .flyerinfo img.reveal {
     height: 400px;
-    width: 400px;
+    width: 300px;
   }
 
   .flyergrid {
     padding-top: 10rem;
-    padding-left: 800rem;
   }
 }
