@@ -134,10 +134,13 @@ display: inline-block;
   padding-top: 1px;
 }
 
-.flyerinfo.reveal {
+.flyerinfo img.reveal {
+  height: 200px;
+  width: 200px;
   padding: 50px 0 50px 0;
 }
 
+/*
 .flyerinfo div {
   position: absolute;
   color: #fff;
@@ -155,6 +158,7 @@ display: inline-block;
 .flyerinfo div.show {
   opacity: 1;
 }
+*/
 
 /* ABOUT */
 
@@ -281,6 +285,12 @@ display: inline-block;
     width: 300px;
   }
 
+  .flyerinfo img.reveal {
+    height: 400px;
+    width: 300px;
+    padding: 50px 0 50px 0;
+  }
+
   .music {
     margin-top: 10%;
   }
@@ -307,9 +317,17 @@ display: inline-block;
     padding-right: 2px;
   }
 
+  .flyerinfo img.reveal {
+    height: 400px;
+    width: 300px;
+    padding: 0 100px 0 100px;
+  }
+
+  /*
   .flyerinfo.reveal {
     padding: 0 100px 0 100px;
   }
+*/
 }
 
 @media screen and (min-width: 1280px) {

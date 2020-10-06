@@ -11,7 +11,7 @@ for (i = 0; i < flyerPopUp.length; i++) {
 }
 */
 
-var flyerPopUp = document.querySelectorAll(".flyerinfo");
+var flyerPopUp = document.querySelectorAll(".flyerinfo img");
 /*var flyerText = document.querySelectorAll(".text");*/
 
 var i;
