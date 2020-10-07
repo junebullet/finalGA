@@ -146,6 +146,10 @@ display: inline-block;
   display: none;
 }
 
+.text a {
+  text-decoration: none;
+}
+
 .text.show {
   display: block;
 }
@@ -348,7 +352,7 @@ display: inline-block;
   }
 
   .flyergrid {
-    padding-left: 550rem;
+    padding-left: 650rem;
   }
 
   .flyerinfo img {
