@@ -209,9 +209,9 @@ display: inline-block;
 
 .video-responsive {
   padding-left: 0px;
-  padding-bottom: 25%;
+  padding-bottom: 0%;
   position: relative;
-  height: 0;
+  height: 400px;
 }
 
 .video-responsive iframe {
@@ -238,8 +238,8 @@ display: inline-block;
 }
 
 .video-responsive-3 {
-  padding-bottom: 25%;
-  height: 0;
+  padding-bottom: 0;
+  height: 400px;
   position: relative;
 }
 
