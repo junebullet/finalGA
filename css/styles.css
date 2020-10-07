@@ -321,7 +321,7 @@ display: inline-block;
     flex-direction: row;
     height: 50%;
     padding-top: 7rem;
-    padding-left: 475rem;
+    padding-left: 600rem;
     /*margin-left: 200%;*/
   }
 
@@ -352,7 +352,7 @@ display: inline-block;
   }
 
   .flyergrid {
-    padding-left: 650rem;
+    padding-left: 675rem;
   }
 
   .flyerinfo img {
