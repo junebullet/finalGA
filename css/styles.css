@@ -143,6 +143,7 @@ display: inline-block;
 
 .text {
   color: #fff;
+  font-size: 14px;
   display: none;
 }
 
@@ -293,13 +294,13 @@ display: inline-block;
   }
 
   .flyerinfo img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
   }
 
   .flyerinfo img.reveal {
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding: 50px 0 50px 0;
   }
 
@@ -320,8 +321,8 @@ display: inline-block;
     display: flex;
     flex-direction: row;
     height: 50%;
-    padding-top: 7rem;
-    padding-left: 600rem;
+    padding-top: 2rem;
+    padding-left: 475rem;
     /*margin-left: 200%;*/
   }
 
@@ -330,8 +331,8 @@ display: inline-block;
   }
 
   .flyerinfo img.reveal {
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding: 0 100px 0 100px;
   }
 
@@ -371,7 +372,9 @@ display: inline-block;
     width: 300px;
   }
 
+  /*
   .flyergrid {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
+  */
 }
