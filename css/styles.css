@@ -359,30 +359,7 @@ display: inline-block;
   }
 }
 
-/*
-@media screen and (min-width: 960px) {
-  .flyergallery {
-  }
 
-  .flyergrid {
-    display: flex;
-    flex-direction: row;
-    height: 50%;
-    padding-top: 2rem;
-    padding-left: 475rem;
-    /*margin-left: 200%;*/
-  }
-
-  .flyergrid img {
-    padding-right: 3px;
-  }
-
-  .flyerinfo img.reveal {
-    height: 350px;
-    width: 250px;
-    padding: 0 100px 0 100px;
-  }
-*/
   /*
   .flyerinfo.reveal {
     padding: 0 100px 0 100px;
