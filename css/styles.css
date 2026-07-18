@@ -142,6 +142,22 @@ display: inline-block;
 }
 
 .text {
+  color: #002050;
+  font-size: 14px;
+  display: none;
+  text-align: center;
+  padding: 4px 0 10px;
+}
+
+.text a {
+  color: #002050;
+  text-decoration: underline;
+}
+
+
+/*
+
+.text {
   color: #fff;
   font-size: 14px;
   display: none;
@@ -150,6 +166,8 @@ display: inline-block;
 .text a {
   text-decoration: none;
 }
+
+*/
 
 .text.show {
   display: block;
