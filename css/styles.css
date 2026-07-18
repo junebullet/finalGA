@@ -302,7 +302,7 @@ display: inline-block;
 */
 
    body {
-    padding-top: 30px;  /* header is shorter once nav goes horizontal */
+    padding-top: 50px;  /* header is shorter once nav goes horizontal */
   }
 
   .nav1 li {
