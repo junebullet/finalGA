@@ -4,6 +4,7 @@ body {
   color: black;
   background: #f7cde5;
   min-height: 100%;
+  padding-top: 130px;   /* clears the tall stacked-nav header on mobile */
 }
 
 /*HEADER*/
@@ -290,9 +291,7 @@ display: inline-block;
 /* MEDIA Q */
 
 @media screen and (min-width: 480px) {
-  .flyergrid {
-    padding-top: 10rem;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -301,6 +300,10 @@ display: inline-block;
     display: none;
 }
 */
+
+   body {
+    padding-top: 70px;  /* header is shorter once nav goes horizontal */
+  }
 
   .nav1 li {
     display: inline-block;
@@ -315,7 +318,7 @@ display: inline-block;
   }
 
   .flyergrid {
-    padding-top: 5rem;
+    padding-top: 1rem;
   }
 
   .flyerinfo img {
@@ -344,7 +347,7 @@ display: inline-block;
   flex-direction: row;
   width: 100%;
   overflow-x: auto;
-  padding-top: 10rem;
+  padding-top: 2rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
   }
