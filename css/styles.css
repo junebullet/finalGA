@@ -292,7 +292,7 @@ display: inline-block;
 
 @media screen and (min-width: 480px) {
   body {
-    padding-top: 50px;  
+    padding-top: 20px;  
   }
 }
 
