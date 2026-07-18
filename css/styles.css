@@ -290,6 +290,9 @@ display: inline-block;
 /* MEDIA Q */
 
 @media screen and (min-width: 480px) {
+  .flyergrid {
+    padding-top: 5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -312,7 +315,7 @@ display: inline-block;
   }
 
   .flyergrid {
-    padding-top: 2rem;
+    padding-top: 5rem;
   }
 
   .flyerinfo img {
