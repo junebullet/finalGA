@@ -1,5 +1,4 @@
 
-
 var flyers = document.querySelectorAll(".flyerinfo img");
 
 flyers.forEach(function (img) {
