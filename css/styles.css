@@ -4,6 +4,7 @@ body {
   color: black;
   background: #f7cde5;
   min-height: 100%;
+  padding-top: 5rem;
 }
 
 /*HEADER*/
