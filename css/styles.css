@@ -302,7 +302,7 @@ display: inline-block;
 */
 
    body {
-    padding-top: 70px;  /* header is shorter once nav goes horizontal */
+    padding-top: 30px;  /* header is shorter once nav goes horizontal */
   }
 
   .nav1 li {
@@ -347,7 +347,7 @@ display: inline-block;
   flex-direction: row;
   width: 100%;
   overflow-x: auto;
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
   }
