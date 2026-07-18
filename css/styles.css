@@ -4,7 +4,6 @@ body {
   color: black;
   background: #f7cde5;
   min-height: 100%;
-  padding-top: 5rem;
 }
 
 /*HEADER*/
@@ -339,12 +338,12 @@ display: inline-block;
 @media screen and (min-width: 960px) {
   .flyergrid {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    overflow-x: auto;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
+  flex-direction: row;
+  width: 100%;
+  overflow-x: auto;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
   }
 
   .flyergrid img {
