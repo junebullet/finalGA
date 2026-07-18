@@ -341,7 +341,7 @@ display: inline-block;
   flex-direction: row;
   width: 100%;
   overflow-x: auto;
-  padding-top: 5rem;
+  padding-top: 10rem;
   padding-left: 2rem;
   padding-bottom: 1rem;
   }
