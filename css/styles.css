@@ -336,16 +336,14 @@ display: inline-block;
 }
 
 @media screen and (min-width: 960px) {
-  .flyergallery {
-    align-items: flex-start;
-    overflow-x: auto;
-  }
-
   .flyergrid {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
     padding-top: 2rem;
     padding-left: 2rem;
+    padding-bottom: 1rem;
   }
 
   .flyergrid img {
