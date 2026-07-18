@@ -5,6 +5,8 @@ body {
   background: #f7cde5;
   min-height: 100%;
   padding-top: 130px;   /* clears the tall stacked-nav header on mobile */
+  box-sizing: border-box;
+  margin: 0;
 }
 
 /*HEADER*/
