@@ -291,7 +291,9 @@ display: inline-block;
 /* MEDIA Q */
 
 @media screen and (min-width: 480px) {
-  
+  body {
+    padding-top: 50px;  
+  }
 }
 
 @media screen and (min-width: 768px) {
